@@ -1,0 +1,47 @@
+{
+	"screen":false,
+	"idle":["idle","move","attack",5000],
+	"move":[
+		["move",2]
+	],
+	"click":[],
+	"-flip_h": false,
+	"animat":{ 
+		"idle":{
+			"-duration":2000,
+			"loop":true,
+			"average":150,
+			"image":[
+				"idle/0.png",
+				"idle/1.png",
+				"idle/2.png",
+				"idle/3.png",
+				"idle/4.png",
+				"idle/5.png"
+			]
+		},
+		"move":{
+			"loop": true,
+			"average":125,
+			"image":[
+				"move/0.png",
+				"move/1.png",
+				"move/2.png",
+				"move/3.png",
+				"move/4.png",
+				"move/5.png"
+			]
+		},
+		"attack":{
+			"average":125,
+			"image":[
+				"attack/0.png",
+				"attack/1.png",
+				"attack/2.png",
+				"attack/3.png",
+				"attack/4.png",
+				"attack/5.png"
+			]
+		}
+	}
+}
